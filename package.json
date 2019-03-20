@@ -1,8 +1,7 @@
 {
-  "name": "@awaremi/prepare",
+  "name": "generator-prepare",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +9,14 @@
     "type": "git",
     "url": "git+https://github.com/awaremi/prepare.git"
   },
-  "author": "Arief Warazuhudien, Pras, Aditya Novandri, Kisman",
+  "author": "Arief Warazuhudien, Aditya Novandri, Pras, Kisman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/awaremi/prepare/issues"
   },
-  "homepage": "https://github.com/awaremi/prepare#readme"
+  "homepage": "https://github.com/awaremi/prepare#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "yeoman-generator": "^3.2.0"
+  }
 }
