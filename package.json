@@ -23,6 +23,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "command-line-args": "^5.1.0",
+    "command-line-usage": "^5.0.5",
     "node-fetch": "^2.3.0"
   }
 }
