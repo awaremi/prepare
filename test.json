@@ -1,0 +1,75 @@
+[
+	{
+		"item": "name",
+		"dialog": "please specify component name :"
+	},
+	{
+		"item": "title",
+		"dialog": "please specify page title :"
+	},
+	{
+		"item": "searchCriteria",
+		"dialog": "how many column that will be use for search criteria?",
+		"subList": {
+			"dialog": "search criteria column - {n}",
+			"detail": [
+				{
+					"item": "name",
+					"dialog": "please specify variable name:"
+				},
+				{
+					"item": "title",
+					"dialog": "please specify column title:"
+				},
+				{
+					"item": "type",
+					"dialog":  "please specify column type:",
+					"option": ["text", "number", "number range","date", "date range", "lookup"],
+					"if": {
+						"response": "lookup",
+						"item": "target",
+						"dialog": "please specify lookup target: "
+					}
+				}
+			]
+		}
+	},
+	{
+		"item": "actionButton",
+		"dialog": "how many additional action button will be placed?",
+		"subList": {
+			"dialog": "action button - {n}",
+			"detail": [
+				{
+					"item": "title",
+					"dialog": "please specify button title:"
+				},
+				{
+					"item": "function",
+					"dialog": "please specify button method name:"
+				}
+			]
+		}
+	},
+	{
+		"item": "tableColumn",
+		"dialog": "how many column will be placed on table?",
+		"subList": {
+			"dialog": "table column - {n}",
+			"detail": [
+				{
+					"item": "title",
+					"dialog": "please specify column title:"
+				},
+				{
+					"item": "variable",
+					"dialog": "please specify variable name:"
+				},
+				{
+					"item": "size",
+					"dialog": "please specify column size:"
+				}
+			]
+		}
+	}
+]

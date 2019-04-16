@@ -1,6 +1,6 @@
 {
   "name": "@awaremi/prepare",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/awaremi/prepare.git"
   },
-  "author": "Arief Warazuhudien, Aditya Novandri & Kisman",
+  "author": "Arief Warazuhudien",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/awaremi/prepare/issues"
@@ -22,8 +22,14 @@
   "homepage": "https://github.com/awaremi/prepare#readme",
   "dependencies": {
     "chalk": "^2.4.2",
+    "change-case": "^3.1.0",
+    "colors-cli": "^1.0.21",
     "command-line-args": "^5.1.0",
     "command-line-usage": "^5.0.5",
-    "node-fetch": "^2.3.0"
+    "file-system": "^2.2.2",
+    "loading-cli": "^1.0.8",
+    "mustache": "^3.0.1",
+    "node-fetch": "^2.3.0",
+    "readline-sync": "^1.4.9"
   }
 }
